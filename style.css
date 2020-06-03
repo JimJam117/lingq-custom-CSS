@@ -1,0 +1,21 @@
+/*Working as of 03/06/20 */
+/* Removes unneeded whitespace in the lesson view */
+
+.container {
+    width: 100%
+}
+.lesson-topbar{
+    display: none;
+}
+
+.lesson-card{
+    height: 100vh;
+}
+
+.lesson-card .widget-area  {
+    flex: 2;
+    box-shadow: none;
+    margin:0;
+    border-radius:0;
+    
+}
